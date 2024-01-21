@@ -5,8 +5,8 @@ if __name__ == "__main__":
     if num == 1:
         print("{} arguments.".format(num - 1))
     elif num == 2:
-        print(f"{num - 1} arguments")
+        print("{} arguments".format(num - 1))
     else:
-        print(f"{num - 1} argument")
+        print("{} argument".format(num - 1))
     for n in range(1, num):
-        print(f"{num - 1} {sys.argv[n]}")
+        print("{} {}".format((num -1), (sys.argv[n])))
